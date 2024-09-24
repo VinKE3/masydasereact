@@ -6,6 +6,7 @@ import Features from "../../components/home-page/home-7/Features";
 import Features2 from "../../components/home-page/home-7/Features2";
 import ProductTabs from "../../components/home-page/home-6/ProductTabs";
 import TagList from "../../components/home-page/home-6/TagList";
+import IntroAbout from "../../components/home-page/home-1/IntroAbout";
 const MasyDase = () => {
   return (
     <>
@@ -124,6 +125,16 @@ const MasyDase = () => {
             </div>
           </div>
           <ProductTabs />
+        </div>
+      </div>
+      <div
+        id="guia-transportistas"
+        className="fancy-feature-thirtyFive mt-90 md-mt-70"
+      >
+        <div className="bg-wrapper mt-150 pt-100 lg-mt-80 lg-pt-70">
+          <div className="container">
+            <IntroAbout />
+          </div>
         </div>
       </div>
     </>

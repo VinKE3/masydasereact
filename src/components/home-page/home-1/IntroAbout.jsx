@@ -7,20 +7,38 @@ const IntroAbout = () => {
     {
       id: 1,
       cardNo: "card-one",
-      title: "Happier",
-      subtitle: "Customers",
+      title: "Eficiencia",
+      subtitle: "Mejorada",
     },
     {
       id: 2,
-      title: "30+",
+      title: "Mejora en",
       cardNo: "card-two",
-      subtitle: "Insurance Item",
+      subtitle: "Exactitud de entregas",
     },
     {
       id: 3,
-      title: "Saller Leads",
+      title: "Aumento de ",
       cardNo: "card-three",
-      subtitle: "Who are listing soon",
+      subtitle: "la seguridad",
+    },
+    {
+      id: 4,
+      cardNo: "card-four",
+      title: "Reducción de",
+      subtitle: "Costos Operativos",
+    },
+    {
+      id: 5,
+      title: "Flexibilidad",
+      cardNo: "card-five",
+      subtitle: "y adaptación",
+    },
+    {
+      id: 6,
+      title: "Cumplimiento",
+      cardNo: "card-six",
+      subtitle: "Normativo",
     },
   ];
 
@@ -30,7 +48,7 @@ const IntroAbout = () => {
         channel="youtube"
         autoplay
         isOpen={isOpen}
-        videoId="rDYdeq3JW_E"
+        videoId="UFaPYZ7AW1A"
         onClose={() => setOpen(false)}
       />
 
@@ -44,19 +62,21 @@ const IntroAbout = () => {
               onClick={() => setOpen(true)}
             />
             <p className="tx-dark pt-30 pb-30 md-pb-15" data-aos="fade-up">
-              The team signed <span className="fw-500">~$7,000,000</span> in new
-              business in July. Accelerator has been a large part of that.
+              Sistema de guías <span className="fw-500">Electronicas</span> de
+              transportistas.
             </p>
             <h6
               className="fs-20 tx-dark d-inline-block fst-italic position-relative ps-4"
               data-aos="fade-up"
             >
-              Jessica Woodbeck
+              Sistema digital utilizado para emitir, gestionar y validar guías
+              de transporte en formato electrónico. Estas guías son documentos
+              que certifican el transporte de mercancías y son requeridas por
+              las autoridades fiscales para asegurar que las transacciones
+              comerciales cumple con las regulaciones.
             </h6>
           </div>
-          {/* /.text-wrapper */}
         </div>
-        {/* End .col */}
 
         <div className="col-xl-7 col-md-6 order-md-first" data-aos="fade-up">
           <div className="img-holder d-lg-inline-flex position-relative zn2 pb-45 xl-pb-90">
@@ -85,10 +105,8 @@ const IntroAbout = () => {
                 </div>
               </div>
             ))}
-            {/* /.card */}
           </div>
         </div>
-        {/* End .col-xl-7 */}
       </div>
     </>
   );
