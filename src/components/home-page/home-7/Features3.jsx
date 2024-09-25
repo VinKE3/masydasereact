@@ -30,27 +30,27 @@ const Features3 = () => {
     {
       className:
         "block-bg shapes tran3s block-one d-flex align-items-center justify-content-center",
-      text: "Trusted & strong security",
+      text: "Seguridad Robusta",
     },
     {
       className:
         "block-bg shapes tran3s block-two d-flex align-items-center justify-content-center",
-      text: "Free cloud storage",
+      text: "Escabilidad instantanea",
     },
     {
       className:
         "block-bg shapes tran3s block-three d-flex align-items-center justify-content-center",
-      text: "Easy Customizable",
+      text: "Entorno dedicado",
     },
     {
       className:
         "block-bg shapes tran3s block-four d-flex align-items-center justify-content-center",
-      text: "SEO Optimized",
+      text: "Agilidad y eficiencia",
     },
     {
       className:
         "block-bg shapes tran3s block-five d-flex align-items-center justify-content-center",
-      text: "User Friendly Interface",
+      text: "Costo reducido",
     },
   ];
 
@@ -77,12 +77,13 @@ const Features3 = () => {
           <div className="circle-three rounded-circle" />
         </div>
       </div>
-      {/* End circle  */}
 
       <div className="mobile-screen">
         <img
-          src="/images/media/img_17.png"
+          src="/images/vps/1.svg"
           alt="shape"
+          width={430}
+          height={770}
           className="lazy-img m-auto"
         />
       </div>

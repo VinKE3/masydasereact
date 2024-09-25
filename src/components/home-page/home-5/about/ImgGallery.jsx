@@ -10,7 +10,7 @@ const ImgGallery = () => {
         channel="youtube"
         autoplay
         isOpen={isOpen}
-        videoId="rDYdeq3JW_E"
+        videoId="nDh_A9q4ML8"
         onClose={() => setOpen(false)}
       />
 
@@ -18,25 +18,24 @@ const ImgGallery = () => {
         <div className="row align-items-center" data-aos="fade-right">
           <div className="col-6">
             <img
-              src="/images/media/img_79.jpg"
+              src="/images/guiasRemision/1.png"
               alt="media"
               className="lazy-img mt-40 mb-40 lg-mt-20 lg-mb-20"
             />
             <img
-              src="/images/media/img_80.jpg"
+              src="/images/guiasRemision/login.png"
               alt="media"
               className="lazy-img ms-auto mt-40 mb-40 lg-mt-20 lg-mb-20"
             />
           </div>
           <div className="col-6">
             <img
-              src="/images/media/img_81.jpg"
+              src="/images/guiasRemision/2.png"
               alt="media"
               className="lazy-img mt-40 mb-40 lg-mt-20 lg-mb-20"
             />
           </div>
         </div>
-        {/* End .row */}
 
         <button
           className="fancybox video-icon rounded-circle tran3s d-flex align-items-center justify-content-center"

@@ -2802,7 +2802,7 @@ body .btn-twentySix:hover:after {
 .pricing-section-one .shape-one {
   width: 293px;
   height: 293px;
-  background: #57f2cf;
+  background: var(--prime-one);
   top: 24%;
   left: -150px;
   animation: jumpTwo 4s infinite linear;
@@ -8485,7 +8485,7 @@ body .btn-twentySix:hover:after {
   height: 26px;
   right: -35px;
   bottom: 16%;
-  background: #fff95f;
+  background: var(--prime-one);
 }
 /*^^^^^^^^^^^^^^^^^^^^^ Feature Section Forty Nine ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .fancy-feature-fortyNine {
@@ -8947,7 +8947,7 @@ body .btn-twentySix:hover:after {
 
 /*^^^^^^^^^^^^^^^^^^^^^ Feature Section Fifty Two ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .fancy-feature-fiftyTwo .video-banner {
-  background: url(/images/media/img_86.jpg) no-repeat center;
+  background: url(/images/utilcon/FONDO.png) no-repeat center;
   background-size: cover;
   border-radius: 30px;
   height: 620px;

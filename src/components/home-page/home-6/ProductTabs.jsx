@@ -1,7 +1,7 @@
 const tabData = [
   {
     id: "sp1",
-    title: "Login del",
+    title: "Login",
     subtitle: "sistema de liquidación",
     image: "/images/liquidacionCompras/liqui1.png",
   },
@@ -36,7 +36,7 @@ const ProductTabs = () => {
               type="button"
               role="tab"
             >
-              {tab.title}
+              {tab.title} <br />
               <span className="d-none d-lg-inline-block">{tab.subtitle}</span>
             </button>
           </li>

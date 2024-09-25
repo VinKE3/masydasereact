@@ -53,7 +53,12 @@ const MasyMainMenu = () => {
           <li className="d-block d-lg-none">
             <div className="logo">
               <Link to="/" className="d-block">
-                <img src="/images/logo/logo2.png" alt="logo" />
+                <img
+                  src="/images/logo/logo2.png"
+                  alt="logo"
+                  width={150}
+                  height={30}
+                />
               </Link>
             </div>
           </li>
@@ -136,14 +141,14 @@ const MasyMainMenu = () => {
             <ul className="dropdown-menu">
               {blogItems.map((blog, index) => (
                 <li key={index}>
-                  <Link
-                    to={blog.link}
+                  <a
+                    href={blog.link}
                     className={`dropdown-item ${
                       isActive(blog.link) ? "active" : ""
                     }`}
                   >
                     <span>{blog.text}</span>
-                  </Link>
+                  </a>
                 </li>
               ))}
             </ul>
@@ -204,7 +209,7 @@ const MasyMainMenu = () => {
         </ul>
 
         {/* Mobile Content */}
-        <div className="mobile-content d-block d-lg-none">
+        {/* <div className="mobile-content d-block d-lg-none">
           <div className="d-flex flex-column align-items-center justify-content-center mt-70">
             <Link
               to="/contact/contact-v1"
@@ -213,7 +218,7 @@ const MasyMainMenu = () => {
               Contact us
             </Link>
           </div>
-        </div>
+        </div> */}
         {/* /.mobile-content */}
       </div>
     </nav>
