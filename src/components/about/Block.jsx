@@ -3,37 +3,62 @@ import React from "react";
 const blocksData = [
   {
     id: 1,
-    iconSrc: "/images/icon/icon_152.svg",
-    title: "Quality Service",
-    content: "Elit esse cillum dolore eu fugiat nulla pariatur",
+    iconSrc: "/images/icon/icon_12.svg",
+    title: "Reducción de Costos",
     dataAos: "fade-up",
     dataAosDelay: "",
   },
   {
-    id: 2,
-    iconSrc: "/images/icon/icon_153.svg",
-    title: "24x7 Support",
-    content: "Elit esse cillum dolore eu fugiat nulla pariatur",
+    id: 3,
+    iconSrc: "/images/icon/icon_12.svg",
+    title: "Asesoría personalizada",
+    dataAos: "fade-up",
+    dataAosDelay: "200",
+  },
+
+  {
+    id: 4,
+    iconSrc: "/images/icon/icon_12.svg",
+    title: "Acceso a experiencia personalizada",
+    dataAos: "fade-up",
+    dataAosDelay: "300",
+  },
+  {
+    id: 6,
+    iconSrc: "/images/icon/icon_12.svg",
+    title: "Flexibilidad operativa y dinámica.",
     dataAos: "fade-up",
     dataAosDelay: "100",
   },
   {
-    id: 3,
-    iconSrc: "/images/icon/icon_154.svg",
-    title: "Great Pricing",
-    content: "Elit esse cillum dolore eu fugiat nulla pariatur",
+    id: 2,
+    iconSrc: "/images/icon/icon_12.svg",
+    title: "Garantía del cumplmiento normativo",
+    dataAos: "fade-up",
+    dataAosDelay: "100",
+  },
+  {
+    id: 5,
+    iconSrc: "/images/icon/icon_12.svg",
+    title: "Mitigación y reducción de riesgos empresariales",
+    dataAos: "fade-up",
+    dataAosDelay: "",
+  },
+
+  {
+    id: 7,
+    iconSrc: "/images/icon/icon_12.svg",
+    title: "Optimización de recursos",
     dataAos: "fade-up",
     dataAosDelay: "200",
   },
   {
-    id: 4,
-    iconSrc: "/images/icon/icon_155.svg",
-    title: "100% Trusted",
-    content: "Elit esse cillum dolore eu fugiat nulla pariatur",
+    id: 8,
+    iconSrc: "/images/icon/icon_12.svg",
+    title: "Seguridad de la información",
     dataAos: "fade-up",
     dataAosDelay: "300",
   },
-  // Add more blocks as needed
 ];
 
 const Block = () => {
@@ -52,7 +77,6 @@ const Block = () => {
             <h4 className="fw-bold tx-dark mt-30 mb-15">{block.title}</h4>
             <p className="fs-18">{block.content}</p>
           </div>
-          {/* /.card-style-twentyFour */}
         </div>
       ))}
     </>

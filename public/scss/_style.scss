@@ -384,7 +384,7 @@ p {
   bottom: 10px;
   width: 98%;
   height: 12px;
-  background: rgba(255, 139, 37, 0.4);
+  background: var(--prime-one);
   z-index: -1;
 }
 .title-style-two .sc-title {
@@ -1894,7 +1894,7 @@ body .btn-twentySix:hover:after {
 .fancy-feature-two .img-meta .shape-three {
   width: 57px;
   height: 57px;
-  background: #ff8c24;
+  background: var(--prime-one);
   border-radius: 13px;
   transform: rotate(15deg);
   right: -5%;
@@ -1913,7 +1913,7 @@ body .btn-twentySix:hover:after {
 .fancy-feature-two .img-meta .shape-six {
   width: 80px;
   height: 80px;
-  background: #17bd37;
+  background: var(--prime-one);
   border-radius: 15px;
   transform: rotate(-15deg);
   left: 0;
@@ -2787,7 +2787,7 @@ body .btn-twentySix:hover:after {
   border: 1px solid #ededed;
   border-radius: 15px 0 0 15px;
   border-right: none;
-  top: 228px;
+  top: 92px;
   left: 0;
   height: 100%;
 }
@@ -7080,7 +7080,7 @@ body .btn-twentySix:hover:after {
 .fancy-feature-thirtyFive .img-holder .card-five {
   width: 310px;
   top: 1%;
-  left: -16%;
+  left: -1%;
   animation: jumpTwo 10s infinite linear;
 }
 .fancy-feature-thirtyFive .img-holder .card-six {
@@ -10057,7 +10057,7 @@ body .btn-twentySix:hover:after {
 }
 /*^^^^^^^^^^^^^^^^^^^^^ Feature Section Fifty Four ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .fancy-feature-fiftyFour .bg-wrapper {
-  background: #e8faf3;
+  background: #e3faff;
 }
 .fancy-feature-fiftyFour .shape-one {
   top: 15%;

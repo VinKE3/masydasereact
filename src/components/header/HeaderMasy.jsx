@@ -29,14 +29,14 @@ const HeaderMasy = () => {
       <div className="inner-content position-relative">
         <div className="d-flex align-items-center justify-content-between">
           <div className="logo order-lg-0">
-            <Link to="/" className="d-block">
+            <a href="#" className="d-block">
               <img
                 src="/images/logo/logo2.png"
                 alt="logo"
                 width={150}
                 height={30}
               />
-            </Link>
+            </a>
           </div>
           <div className="right-widget ms-auto d-flex align-items-center order-lg-3">
             <Link to="#" className="login-btn-three rounded-circle tran3s me-3">

@@ -3,20 +3,20 @@ import React from "react";
 const AboutCeo = () => {
   const aboutData = {
     title: {
-      subtitle: "About us",
+      subtitle: "Servicio",
       mainTitle: (
         <>
-          We’ve been helping <span>customer</span> globally.
+          Outsorcing <span>Contable</span>
         </>
       ),
     },
     content: {
-      sectionTitle: "Who we are?",
+      sectionTitle: "¿Que es?",
       description:
-        "Our founders Dustin Moskovitz and Justin Rosenstein met while leading Engineering teams at Facebook. As operations scaled, they grew frustrated by how difficult it was.",
+        "Implica delegar funciones relacionadas con la contabilidad, como la gestión de libros  contables, la elaboración de informes financieros, la prepración de impuestos, y el control de cuentas, a una entidad externa especilizada. Esto puede incluir desde firmas contables hasta freelancers con experiencia en contabilidad.",
     },
     rating: {
-      text: "Avg 4.8 rating makes us world best agency.",
+      text: "Satisfacción garantizada.",
       starsCount: 5,
     },
   };
@@ -51,15 +51,13 @@ const AboutCeo = () => {
           </p>
           <ul className="d-flex style-none rating">{starIcons}</ul>
         </div>
-        {/* /.block-style-one */}
       </div>
-      {/* End .col-5 */}
 
       <div className="col-md-6 order-md-first" data-aos="fade-right">
         <div className="img-meta d-inline-block position-relative ps-3 ps-lg-5 pb-50 sm-mt-90">
           <img
             style={{ objectFit: "cover" }}
-            src="/images/media/img_01.jpg"
+            src="/images/outsourcing/1.webp"
             alt="shape"
             className="lazy-img"
           />
@@ -69,7 +67,7 @@ const AboutCeo = () => {
             className="lazy-img shapes shape-one"
           />
           <img
-            src="/images/shape/shape_10.svg"
+            src="/images/shape/shape_11.svg"
             alt="shape"
             className="lazy-img shapes shape-two"
           />
@@ -80,34 +78,17 @@ const AboutCeo = () => {
             className="lazy-img shapes shape-four"
           />
           <img
-            src="/images/shape/shape_12.svg"
+            src="/images/shape/shape_11.svg"
             alt="shape"
             className="lazy-img shapes shape-five"
           />
           <div className="shapes shape-six" />
           <img
-            src="/images/shape/shape_13.svg"
+            src="/images/shape/shape_11.svg"
             alt="shape"
             className="lazy-img shapes shape-seven"
           />
-          <div className="card-one" data-aos="fade-up" data-aos-delay="250">
-            <div className="icon d-flex align-items-center justify-content-center rounded-circle">
-              <img
-                src="/images/icon/icon_06.svg"
-                alt="shape"
-                className="lazy-img"
-              />
-            </div>
-            <div className="name fs-18 fw-500 tx-dark mb-10">
-              - Bostami Ha, <span className="opacity-50">CEO</span>
-            </div>
-            <p className="fs-18 m0">
-              We aim to answer any quis query in a minute
-            </p>
-          </div>{" "}
-          {/* /.card-one */}
-        </div>{" "}
-        {/* /.img-meta */}
+        </div>
       </div>
     </>
   );

@@ -34,7 +34,7 @@ const Pricing = () => {
         <div className="tab-content">
           <div className="tab-pane show active" id="month">
             <div className="row gx-0 position-relative">
-              <div className="col-lg-3 pr-list-wrapper d-none d-lg-block position-relative mt-45">
+              <div className="col-lg-3 pr-list-wrapper d-none d-lg-block position-relative">
                 <ul className="style-none">
                   <li>Sujeto a modificaciones</li>
                   <li>Multiples Usuarios</li>
@@ -48,15 +48,14 @@ const Pricing = () => {
                     <div className="col-md-6 pr-column sm-mb-20" key={index}>
                       <div className="pr-header">
                         <div className="plan">{item.name}</div>
-                        <p>Planes desde</p>
-                        <div className="price">{item.price}</div>
-                        <div className="info">{item.info}</div>
+                        {/* <div className="price">{item.price}</div>
+                        <div className="info">{item.info}</div> */}
                       </div>
                       <div className="pr-body">
                         <ul className="style-none">
                           {item.features.map((feature) => (
                             <li key={feature.text}>
-                              <span className="pr-text d-block d-lg-none mb-5">
+                              <span className="pr-text d-block d-lg-none">
                                 {feature.text}
                               </span>
                               <i
