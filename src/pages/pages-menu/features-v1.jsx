@@ -20,11 +20,7 @@ const FeaturesV1 = () => {
         ============================================== 	
       --> */}
       <Header />
-      {/* 
-        =============================================
-        Theme Hero Banner
-        ============================================== 
-        */}
+
       <div className="hero-banner-two position-relative pt-160 md-pt-150">
         <img
           src="/images/shape/shape_182.svg"
@@ -46,7 +42,6 @@ const FeaturesV1 = () => {
               <Hero />
             </div>
           </div>
-          {/* End .row */}
 
           <div
             className="illustration-holder position-relative mt-100 lg-mt-80 xs-mt-30"
@@ -63,16 +58,9 @@ const FeaturesV1 = () => {
               </div>
             </div>
           </div>
-          {/* /.illustration-holder */}
         </div>
-        {/* /.container */}
       </div>
-      {/* /.hero-banner-two */}
-      {/* 
-        =============================================
-        Feature Section Fifty Five
-        ============================================== 
-        */}
+
       <div className="fancy-feature-fiftyFive position-relative zn2 pt-140 lg-pt-80 pb-140 lg-pb-80">
         <div className="container">
           <div className="row">
@@ -93,10 +81,8 @@ const FeaturesV1 = () => {
                       for all sectors.
                     </h2>
                   </div>
-                  {/* /.title-style-three */}
                 </div>
               </div>
-              {/* End header title */}
 
               <div className="row">
                 <div className="col-lg-7 col-md-6 order-md-last">
@@ -107,7 +93,7 @@ const FeaturesV1 = () => {
                     <div className="solid-line order-md-first" />
                   </div>
                 </div>
-                {/* End .col */}
+
                 <div className="col-lg-5 col-md-6 order-md-first">
                   <div className="title-style-thirteen text-center text-md-start sm-mt-20">
                     <h2 className="main-title font-recoleta fw-normal">
@@ -116,12 +102,10 @@ const FeaturesV1 = () => {
                   </div>
                 </div>
               </div>
-              {/* End .row */}
 
               <div className="row">
                 <Features />
               </div>
-              {/* End .row */}
 
               <div className="mt-150 lg-mt-80">
                 <div className="row">
@@ -133,7 +117,7 @@ const FeaturesV1 = () => {
                       <div className="solid-line" />
                     </div>
                   </div>
-                  {/* End col-lg-7 */}
+
                   <div className="col-lg-5 col-md-6">
                     <div className="title-style-thirteen text-center text-md-start sm-mt-20">
                       <h2 className="main-title font-recoleta fw-normal">
@@ -141,9 +125,7 @@ const FeaturesV1 = () => {
                       </h2>
                     </div>
                   </div>
-                  {/* End .col-lg-5 */}
                 </div>
-                {/* End .row */}
 
                 <div className="row">
                   <Features2 />
@@ -151,20 +133,13 @@ const FeaturesV1 = () => {
               </div>
             </div>
           </div>
-          {/* /.row */}
         </div>
-        {/* /.container */}
+
         <div className="shapes shape-one rounded-circle" />
         <div className="shapes shape-two rounded-circle" />
         <div className="shapes shape-three rounded-circle" />
       </div>
-      {/* /.fancy-feature-fiftyFive */}
 
-      {/* 
-        =============================================
-        Blog Section Seven
-        ============================================== 
-        */}
       <div className="blog-section-seven position-relative mt-150 lg-mt-90">
         <div className="container">
           <div className="row">
