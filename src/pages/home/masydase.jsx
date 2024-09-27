@@ -13,6 +13,8 @@ import OutsorcingContable from "@/sections/OutsorcingContable";
 import Partners from "@/sections/Partners";
 import PartnersSection from "@/sections/Partners";
 import DesarrolloWeb from "@/sections/DesarrolloWeb";
+import SistemaMedida from "@/sections/SistemaMedida";
+import Contacto from "@/sections/Contacto";
 const MasyDase = () => {
   return (
     <>
@@ -25,10 +27,12 @@ const MasyDase = () => {
       <GuiasTransportistas />
       <GuiasRemision />
       <SistemaEstandar />
+      <SistemaMedida />
       <Vps />
       <OutsorcingContable />
       <PartnersSection />
       <DesarrolloWeb />
+      <Contacto />
     </>
   );
 };

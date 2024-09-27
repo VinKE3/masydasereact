@@ -6,7 +6,10 @@ const DesarrolloWeb = () => {
   return (
     <>
       {" "}
-      <div className="hero-banner-two position-relative pt-160 md-pt-150">
+      <div
+        id="desarrollo-web"
+        className="hero-banner-two position-relative pt-160 md-pt-150"
+      >
         <img
           src="/images/shape/shape_182.svg"
           alt="shape"
