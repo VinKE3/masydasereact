@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import ProductTabs from "@/components/home-page/home-6/ProductTabs";
 import TagList from "@/components/home-page/home-6/TagList";
 
 const LiquidacionCompra = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1200 });
+    AOS.refresh();
+  }, []);
   return (
     <div
       id="liquidacion-compras"

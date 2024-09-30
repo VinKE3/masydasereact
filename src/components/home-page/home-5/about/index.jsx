@@ -1,8 +1,7 @@
-import Counter from "./Counter";
 import ImgGallery from "./ImgGallery";
 import Intro from "./Intro";
 import { useState } from "react";
-import ModalVideo from "react-modal-video";
+
 const index = () => {
   const [isOpen, setOpen] = useState(false);
   return (

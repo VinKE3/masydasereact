@@ -74,7 +74,7 @@ const Block = () => {
             <div className="icon">
               <img src={block.iconSrc} alt="icon" className="lazy-img mh-100" />
             </div>
-            <h4 className="fw-bold tx-dark mt-30 mb-15">{block.title}</h4>
+            <h4 className="fw-bold tx-dark mt-0 mb-15">{block.title}</h4>
             <p className="fs-18">{block.content}</p>
           </div>
         </div>

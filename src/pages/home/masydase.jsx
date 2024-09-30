@@ -10,7 +10,6 @@ import GuiasRemision from "@/sections/GuiasRemision";
 import SistemaEstandar from "@/sections/SistemaEstandar";
 import Vps from "@/sections/Vps";
 import OutsorcingContable from "@/sections/OutsorcingContable";
-import Partners from "@/sections/Partners";
 import PartnersSection from "@/sections/Partners";
 import DesarrolloWeb from "@/sections/DesarrolloWeb";
 import SistemaMedida from "@/sections/SistemaMedida";

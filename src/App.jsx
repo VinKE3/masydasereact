@@ -1,4 +1,4 @@
-import Aos from "aos";
+import Aos, { offset } from "aos";
 import { useEffect } from "react";
 import "aos/dist/aos.css";
 import "./styles/index.scss";
@@ -11,10 +11,14 @@ import NotFound from "./pages/404";
 function App() {
   useEffect(() => {
     Aos.init({
-      duration: 1200,
+      duration: 1500,
+      offset: 300, // Ajuste del offset para iniciar la animación antes de que el elemento entre al viewport.
     });
+    Aos.refresh(); // Refresca AOS para asegurarse de que se detecten todos los elementos.
   }, []);
-
+  window.addEventListener("scroll", () => {
+    Aos.refresh();
+  });
   return (
     <div className="main-page-wrapper">
       <Routes>

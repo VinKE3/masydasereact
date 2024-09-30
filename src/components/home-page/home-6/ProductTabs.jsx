@@ -1,3 +1,7 @@
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const tabData = [
   {
     id: "sp1",
@@ -20,6 +24,10 @@ const tabData = [
 ];
 
 const ProductTabs = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1200 });
+    AOS.refresh();
+  }, []);
   return (
     <>
       <ul
