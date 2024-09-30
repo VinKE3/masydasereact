@@ -1,12 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Hero from "@/components/home-page/home-10/Hero";
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 const HeroBanner = () => {
-  useEffect(() => {
-    AOS.init({ duration: 1200 });
-    AOS.refresh();
-  }, []);
   return (
     <div className="hero-banner-one p-30">
       <div className="bg-wrapper" data-aos="fade">

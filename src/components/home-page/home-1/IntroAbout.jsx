@@ -66,7 +66,7 @@ const IntroAbout = () => {
               transportistas.
             </p>
             <h6
-              className="fs-20 tx-dark d-inline-block fst-italic position-relative ps-4"
+              className="fs-20 tx-dark d-inline-block position-relative ps-4"
               data-aos="fade-up"
             >
               Sistema digital utilizado para emitir, gestionar y validar guías

@@ -21,7 +21,7 @@ const MasyMainMenu = () => {
           }
         });
       },
-      { threshold: 0.5 } // Define cuando se considera una sección como visible (50%)
+      { threshold: 0.5 }
     );
 
     sections.forEach((section) => {
@@ -46,7 +46,6 @@ const MasyMainMenu = () => {
       >
         <span />
       </button>
-      {/* End mobile collapse menu */}
 
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
@@ -124,7 +123,6 @@ const MasyMainMenu = () => {
 
           <li className="nav-item dropdown">
             <a
-              // className="nav-link dropdown-toggle"
               className={
                 blogItems.some((elm) => isActive(elm.link))
                   ? "nav-link dropdown-toggle active-menu"
@@ -207,19 +205,6 @@ const MasyMainMenu = () => {
             </a>
           </li>
         </ul>
-
-        {/* Mobile Content */}
-        {/* <div className="mobile-content d-block d-lg-none">
-          <div className="d-flex flex-column align-items-center justify-content-center mt-70">
-            <Link
-              to="/contact/contact-v1"
-              className="btn-twentyOne fw-500 tran3s"
-            >
-              Contact us
-            </Link>
-          </div>
-        </div> */}
-        {/* /.mobile-content */}
       </div>
     </nav>
   );

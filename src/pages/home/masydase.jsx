@@ -14,6 +14,8 @@ import PartnersSection from "@/sections/Partners";
 import DesarrolloWeb from "@/sections/DesarrolloWeb";
 import SistemaMedida from "@/sections/SistemaMedida";
 import Contacto from "@/sections/Contacto";
+
+import FooterMain from "@/components/home-page/home-10/Footer";
 const MasyDase = () => {
   return (
     <>
@@ -29,9 +31,10 @@ const MasyDase = () => {
       <SistemaMedida />
       <Vps />
       <OutsorcingContable />
-      <PartnersSection />
       <DesarrolloWeb />
       <Contacto />
+      <PartnersSection />
+      <FooterMain />
     </>
   );
 };

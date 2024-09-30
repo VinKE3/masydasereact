@@ -1,12 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Features from "@/components/home-page/home-7/Features";
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 const Nosotros = () => {
-  useEffect(() => {
-    AOS.init({ duration: 1200 });
-    AOS.refresh();
-  }, []);
   return (
     <div id="nosotros" className="fancy-feature-seven pt-200 lg-pt-100">
       <div className="container">

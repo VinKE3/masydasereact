@@ -4,21 +4,24 @@ import Map2 from "@/components/contact/Map2";
 
 const Contacto = () => {
   return (
-    <div className="contact-section-four pt-180 md-pt-150">
+    <div className="contact-section-four pt-180 md-pt-150 mb-10">
       <div className="container">
         <div className="row">
-          <div className="col-xxl-7 col-lg-6 col-md-7 m-auto">
+          <div className="col-lg-8 m-auto">
             <div
-              className="title-style-fourteen text-center mb-100 lg-mb-50"
+              className="title-style-four text-center mb-60 lg-mb-40"
               data-aos="fade-up"
             >
-              <div className="sc-title">CONTACTO</div>
-              <h2 className="main-title font-recoleta fw-normal tx-dark">
-                Nuestro{" "}
-                <span className="position-relative">
-                  equipo <img src="/images/shape/shape_181.svg" alt="icon" />
+              <div className="sc-title text-uppercase">Contacto</div>
+              <h2 className="main-title fw-500 mx-6">
+                Soporte
+                <span className="d-inline-block position-relative mx-3">
+                  Técnico
+                  <span
+                    className="mark-bg"
+                    style={{ backgroundColor: "#2bdfff" }}
+                  />
                 </span>
-                esta aquí para ayudarte.
               </h2>
             </div>
           </div>

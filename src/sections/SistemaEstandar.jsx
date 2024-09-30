@@ -11,7 +11,7 @@ const SistemaEstandar = () => {
         <div className="row">
           <div className="col-lg-8 m-auto">
             <div
-              className="title-style-three text-center mb-60 lg-mb-40"
+              className="title-style-four text-center mb-60 lg-mb-40"
               data-aos="fade-up"
             >
               <div className="sc-title text-uppercase">Tabla Comparativa</div>

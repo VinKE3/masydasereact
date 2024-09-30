@@ -11,8 +11,8 @@ import NotFound from "./pages/404";
 function App() {
   useEffect(() => {
     Aos.init({
-      duration: 1500,
-      offset: 300, // Ajuste del offset para iniciar la animación antes de que el elemento entre al viewport.
+      duration: 1200,
+      offset: 100, // Ajuste del offset para iniciar la animación antes de que el elemento entre al viewport.
     });
     Aos.refresh(); // Refresca AOS para asegurarse de que se detecten todos los elementos.
   }, []);

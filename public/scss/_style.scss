@@ -1,22 +1,3 @@
-/* CSS Document */
-
-/* 
-    Theme Name   : Jano - Creative Multipurpose ReactJS Template
-    Version      : 1.0.
-    Developed by : (elitethemes24@gmail.com) 
-   
-
-/*========================================================================================
-
-*************************** Start Styling Your theme from here ***************************
-
-==========================================================================================*/
-/*** 
-====================================================================
-  Theme Color and Root Prefix
-====================================================================
-
- ***/
 ::-webkit-scrollbar {
   width: 5px;
 }
@@ -24,22 +5,22 @@
   background: #fff;
 }
 ::-webkit-scrollbar-thumb {
-  background: #000;
+  background: var(--prime-one);
   border-radius: 0;
 }
 :root {
   --text-color: #48494e;
   --heading: #090f32;
-  --prime-one: #01a8ec;
-  --prime-two: #01a8ec;
-  --prime-three: #01a8ec;
-  --prime-four: #01a8ec;
-  --prime-five: #01a8ec;
-  --prime-six: #01a8ec;
+  --prime-one: #034281;
+  --prime-two: #000556;
+  --prime-three: #0b3c6c;
+  --prime-four: #178bfc;
+  --prime-five: #2483ab;
+  --prime-six: #34bffa;
   --prime-seven: linear-gradient(-90deg, #ff7df2 0%, #ff275b 100%);
-  --prime-eight: #01a8ec;
-  --prime-nine: #01a8ec;
-  --prime-ten: #01a8ec;
+  --prime-eight: #575757;
+  --prime-nine: #777779;
+  --prime-ten: #fafafa;
   --prime-eleven: #01a8ec;
   --prime-twelve: #01a8ec;
 }
@@ -282,6 +263,9 @@ p {
 .tx-dark {
   color: #000;
 }
+.tx-white {
+  color: #fff;
+}
 .p-30 {
   padding: 30px;
 }
@@ -347,7 +331,7 @@ p {
   font-size: 25px;
   cursor: pointer;
   border-radius: 50%;
-  background: var(--prime-ten);
+  background: var(--prime-one);
   transition: all 0.3s ease-in-out;
 }
 .scroll-top:after {
@@ -995,17 +979,18 @@ body .btn-twentyTwo {
   line-height: 55px;
   padding: 0 42px;
   border-radius: 7px;
-  background: var(--prime-ten);
+  background: var(--prime-one);
   color: #fff;
   letter-spacing: -0.2px;
 }
 body .btn-twentyTwo:hover {
-  background: #000;
+  background: var(--prime-four);
+  color: #00bde5;
 }
 body .btn-twentyThree {
   width: 122px;
   height: 122px;
-  background: #000;
+  background: var(--prime-two);
   border-radius: 0 50% 0 0;
   transition: all 0.3s ease-in-out;
 }
@@ -1250,15 +1235,15 @@ body .btn-twentySix:hover:after {
   border: 1px solid #e9e9e9;
   text-align: center;
   line-height: 53px;
-  color: var(--prime-ten);
+  color: var(--prime-two);
   font-size: 25px;
 }
 .theme-main-menu.white-vr .login-btn-three {
   background: #fff;
 }
 .theme-main-menu .login-btn-three:hover {
-  background: var(--prime-ten);
-  border-color: var(--prime-ten);
+  background: var(--prime-two);
+  border-color: var(--prime-two);
   color: #fff;
 }
 .theme-main-menu .login-btn-four {
@@ -1663,7 +1648,7 @@ body .btn-twentySix:hover:after {
   position: relative;
 }
 .hero-banner-one .bg-wrapper {
-  background-color: #effdff;
+  background-color: #f8f8f8;
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -2497,7 +2482,7 @@ body .btn-twentySix:hover:after {
 .fancy-feature-four .tab-content .shape-one {
   width: 126px;
   height: 126px;
-  background: rgba(3, 217, 255, 0.66);
+  background: var(--prime-one);
   top: -75px;
   right: -40px;
   z-index: 0;
@@ -2525,7 +2510,7 @@ body .btn-twentySix:hover:after {
 }
 /*^^^^^^^^^^^^^^^^^^^^^ Feature Section Five ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .fancy-feature-five .tags-wrapper {
-  background: #f3f7f8;
+  background: var(--prime-one);
   padding: 45px 65px 50px;
   border-radius: 25px;
 }
@@ -7015,13 +7000,12 @@ body .btn-twentySix:hover:after {
   line-height: 1.57em;
 }
 .fancy-feature-thirtyFive .text-wrapper p span {
-  text-decoration-line: underline;
   text-decoration-style: solid;
   text-decoration-thickness: 3px;
-  color: var(--prime-ten);
+  color: var(--prime-two);
+  font-weight: bold;
 }
 .fancy-feature-thirtyFive .text-wrapper h6:before {
-  content: "";
   position: absolute;
   width: 22px;
   height: 2px;
@@ -7045,12 +7029,12 @@ body .btn-twentySix:hover:after {
 .fancy-feature-thirtyFive .img-holder .card-style .icon {
   width: 40px;
   height: 40px;
-  color: var(--prime-ten);
+  color: var(--prime-one);
   font-size: 16px;
-  border: 1px solid var(--prime-ten);
+  border: 1px solid var(--prime-one);
 }
 .fancy-feature-thirtyFive .img-holder .card-style h3 {
-  color: var(--prime-ten);
+  color: var(--prime-two);
   margin-bottom: -2px;
 }
 .fancy-feature-thirtyFive .img-holder .card-one {
@@ -9712,7 +9696,7 @@ body .btn-twentySix:hover:after {
 }
 .address-block-two p .call {
   font-size: 22px;
-  color: var(--prime-ten);
+  color: var(--prime-one);
 }
 .address-block-two p .call:hover {
   text-decoration: underline;

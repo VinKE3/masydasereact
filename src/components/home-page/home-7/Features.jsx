@@ -4,21 +4,21 @@ const featureData = [
     icon: "/images/icon/icon_24.svg",
     title: "Misión",
     text: "Nuestra misión es adaptarnos a las necesidades de los sistemas de gestión corporativa, ofreciendo soluciones creativas e innovadoras con sistemas flexibles y soporte técnico integrado.",
-    backgroundColor: "#e0f1f8",
+    backgroundColor: "#034281",
   },
   {
     id: 2,
     icon: "/images/icon/icon_25.svg",
     title: "Visión",
     text: "Aspiramos a ser líderes en el mercado informático, patentando la mayoría de sistemas adaptables a todo tipo de negocios en Perú, fortaleciendo la seguridad de empresas confiadas en nosotros.",
-    backgroundColor: "#e0f1f8",
+    backgroundColor: "#034281",
   },
   {
     id: 3,
     icon: "/images/icon/icon_26.svg",
     title: "Valores",
     text: "Nuestros valores fundamentales son la responsabilidad, honestidad y respeto, principios que guían nuestro compromiso hacia la excelencia y la integridad en cada solución que brindamos a nuestros clientes.",
-    backgroundColor: "#e0f1f8",
+    backgroundColor: "#034281",
   },
 ];
 

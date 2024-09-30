@@ -1,14 +1,9 @@
-import React, { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import React from "react";
+
 import ProductTabs from "@/components/home-page/home-6/ProductTabs";
 import TagList from "@/components/home-page/home-6/TagList";
 
 const LiquidacionCompra = () => {
-  useEffect(() => {
-    AOS.init({ duration: 1200 });
-    AOS.refresh();
-  }, []);
   return (
     <div
       id="liquidacion-compras"
@@ -20,14 +15,14 @@ const LiquidacionCompra = () => {
             className="col-xxl-7 col-md-8 m-auto text-center"
             data-aos="fade-up"
           >
-            <div className="title-style-three">
+            <div className="title-style-four">
               <h2 className="main-title fw-500 px-3">
                 Liquidación de
                 <span className="d-inline-block position-relative mx-3">
                   Compras
                   <span
                     className="mark-bg"
-                    style={{ backgroundColor: "#a4f1ff" }}
+                    style={{ backgroundColor: "#034281" }}
                   />
                 </span>
               </h2>
@@ -44,13 +39,7 @@ const LiquidacionCompra = () => {
             <div className="row align-items-center">
               <div className=" order-md-first" data-data-aos="fade-right">
                 <div className="tags-wrapper position-relative">
-                  <img
-                    src="/images/shape/shape_35.svg"
-                    alt="shape"
-                    className="lazy-img shapes shape-one"
-                  />
-                  <div className="h3 m0 fw-normal tx-dark">6 Beneficios</div>
-
+                  <div className="h3 m0 fw-normal tx-white">6 Beneficios</div>
                   <TagList />
                 </div>
               </div>

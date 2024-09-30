@@ -20,7 +20,6 @@ const TagList = () => {
           </a>
         </li>
       ))}
-      {/* <li>&amp; more…</li> */}
     </ul>
   );
 };

@@ -54,51 +54,22 @@ const DesarrolloWeb = () => {
             <div className="col-xxl-11 m-auto">
               <div className="row">
                 <div className="col-xxl-7 col-lg-6 col-md-7 m-auto">
-                  <div className="title-style-five text-center mb-140 lg-mb-50">
-                    <h2 className="main-title font-recoleta fw-normal">
+                  <div className="title-style-four text-center mb-140 lg-mb-50">
+                    <h2 className="main-title fw-bold">
                       Tenemos todas las
                       <span className="position-relative d-inline-block mx-4">
                         herramientas
-                        <img
-                          src="/images/shape/shape_181.svg"
-                          alt="icon"
-                          className="lazy-img shapes line-shape"
-                        />
                       </span>
                       para hacer crecer tu negocio.
                     </h2>
                   </div>
                 </div>
               </div>
-
-              {/* <div className="row">
-                <div className="col-lg-7 col-md-6 order-md-last">
-                  <div className="d-flex align-items-center justify-content-between title-line mt-15">
-                    <div className="count fw-500 font-recoleta text-white rounded-circle text-center order-md-last">
-                      01
-                    </div>
-                    <div className="solid-line order-md-first" />
-                  </div>
-                </div>
-
-                <div className="col-lg-5 col-md-6 order-md-first">
-                  <div className="title-style-thirteen text-center text-md-start sm-mt-20">
-                    <h2 className="main-title font-recoleta fw-normal">
-                      Servicios para todo tipo de empresas.
-                    </h2>
-                  </div>
-                </div>
-              </div>
-
-              <div className="row">
-                <Features />
-              </div> */}
-
               <div className="mt-150 lg-mt-80">
                 <div className="row">
                   <div className="col-lg-7 col-md-6">
                     <div className="d-flex align-items-center justify-content-between title-line mt-15">
-                      <div className="count fw-500 font-recoleta text-white rounded-circle text-center">
+                      <div className="count fw-500  text-white rounded-circle text-center">
                         01
                       </div>
                       <div className="solid-line" />
@@ -107,7 +78,7 @@ const DesarrolloWeb = () => {
 
                   <div className="col-lg-5 col-md-6">
                     <div className="title-style-thirteen text-center text-md-start sm-mt-20">
-                      <h2 className="main-title font-recoleta fw-normal">
+                      <h2 className="main-title  fw-normal">
                         Solo ofrecemos los mejores servicios.
                       </h2>
                     </div>
