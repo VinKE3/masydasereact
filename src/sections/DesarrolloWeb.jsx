@@ -70,7 +70,12 @@ const DesarrolloWeb = () => {
                   <div className="col-lg-7 col-md-6">
                     <div className="d-flex align-items-center justify-content-between title-line mt-15">
                       <div className="count fw-500  text-white rounded-circle text-center">
-                        01
+                        <i
+                          style={{
+                            fontSize: "20px",
+                          }}
+                          className="bi bi-check2"
+                        ></i>
                       </div>
                       <div className="solid-line" />
                     </div>

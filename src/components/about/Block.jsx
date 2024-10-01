@@ -72,7 +72,12 @@ const Block = () => {
             data-aos-delay={block.dataAosDelay}
           >
             <div className="icon">
-              <img src={block.iconSrc} alt="icon" className="lazy-img mh-100" />
+              <i
+                style={{
+                  fontSize: "28px",
+                }}
+                className="bi bi-check2"
+              ></i>
             </div>
             <h4 className="fw-bold tx-dark mt-0 mb-15">{block.title}</h4>
             <p className="fs-18">{block.content}</p>

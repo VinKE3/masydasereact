@@ -52,7 +52,7 @@ const BlockContact5 = () => {
                 block.phones.map((phone, phoneIndex) => (
                   <a
                     href={`tel:${phone}`}
-                    className="call d-block mb-2"
+                    className="call d-block"
                     key={phoneIndex}
                   >
                     {phone}
