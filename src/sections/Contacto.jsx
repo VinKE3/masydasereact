@@ -4,7 +4,7 @@ import Map2 from "@/components/contact/Map2";
 
 const Contacto = () => {
   return (
-    <div className="contact-section-four pt-180 md-pt-150 mb-10">
+    <div id="contacto" className="contact-section-four pt-180 md-pt-150 mb-10">
       <div className="container">
         <div className="row">
           <div className="col-lg-8 m-auto">
