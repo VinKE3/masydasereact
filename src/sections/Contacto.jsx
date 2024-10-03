@@ -19,7 +19,7 @@ const Contacto = () => {
                   Técnico
                   <span
                     className="mark-bg"
-                    style={{ backgroundColor: "#2bdfff" }}
+                    style={{ backgroundColor: "var(--prime-one)" }}
                   />
                 </span>
               </h2>
@@ -30,7 +30,6 @@ const Contacto = () => {
           <BlockContact5 />
         </div>
       </div>
-
       <div className="contact-meta mt-10 lg-mt-40">
         <div className="row gx-0">
           <div className="col-lg-6 order-lg-last d-flex">
@@ -43,7 +42,6 @@ const Contacto = () => {
               </div>
             </div>
           </div>
-
           <div className="col-lg-6 order-lg-first d-flex">
             <Map2 />
           </div>
