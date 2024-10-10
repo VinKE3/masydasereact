@@ -39,13 +39,25 @@ const HeaderMasy = () => {
             </a>
           </div>
           <div className="right-widget ms-auto d-flex align-items-center order-lg-3">
-            <Link to="#" className="login-btn-three rounded-circle tran3s me-3">
+            <Link
+              to="https://www.facebook.com/FacturacionElectronicaMasyDase/?locale=es_LA"
+              className="login-btn-three rounded-circle tran3s me-3"
+              target="_blank"
+            >
               <i className="bi bi-facebook"></i>
             </Link>
-            <Link to="#" className="login-btn-three rounded-circle tran3s me-3">
+            <Link
+              to="https://www.youtube.com/channel/UCu-Pqi2dKhzVKW7a2SpFJAA"
+              className="login-btn-three rounded-circle tran3s me-3"
+              target="_blank"
+            >
               <i className="bi bi-youtube"></i>
             </Link>
-            <Link to="#" className="login-btn-three rounded-circle tran3s me-3">
+            <Link
+              to="https://www.instagram.com/masydase_/"
+              className="login-btn-three rounded-circle tran3s me-3"
+              target="_blank"
+            >
               <i className="bi bi-instagram"></i>
             </Link>
           </div>{" "}

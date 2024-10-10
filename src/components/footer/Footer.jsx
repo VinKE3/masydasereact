@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   const links = [
     {
@@ -5,8 +7,8 @@ const Footer = () => {
       title: "Menu",
       column: "col-lg-2 col-md-3 col-sm-6 mb-30",
       items: [
-        { label: "Inicio", href: "/" },
-        { label: "Nosotros", href: "/pricing" },
+        { label: "Inicio", href: "#" },
+        { label: "Nosotros", href: "#nosotros" },
         { label: "Contacto", href: "/about-v1" },
       ],
     },
@@ -24,16 +26,16 @@ const Footer = () => {
 
   const socialIcons = [
     {
-      iconClass: "fab fa-facebook-f",
-      link: "#",
+      iconClass: "bi bi-facebook",
+      link: "https://www.facebook.com/FacturacionElectronicaMasyDase/?locale=es_LA",
     },
     {
-      iconClass: "fab fa-twitter",
-      link: "#",
+      iconClass: "bi bi-youtube",
+      link: "https://www.youtube.com/channel/UCu-Pqi2dKhzVKW7a2SpFJAA",
     },
     {
-      iconClass: "fab fa-linkedin-in",
-      link: "#",
+      iconClass: "bi bi-instagram",
+      link: "https://www.instagram.com/masydase_/",
     },
   ];
 
@@ -61,9 +63,9 @@ const Footer = () => {
         <ul className="d-flex social-icon style-none">
           {socialIcons.map((icon, index) => (
             <li key={index}>
-              <a href={icon.link} target="_blank" rel="noopener noreferrer">
+              <Link href={icon.link} target="_blank" rel="noopener noreferrer">
                 <i className={icon.iconClass} />
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
